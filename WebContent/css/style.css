@@ -714,6 +714,9 @@ ol {
 
 .contact-form input[type=text],
 .contact-form input[type=email],
+.contact-form input[type=radio],
+.contact-form select,
+.contact-form input[type=checkbox],
 .contact-form textarea {
 	width: 100%;
 	border: 2px solid #ececec;

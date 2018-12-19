@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class ToContact
  */
-@WebServlet("/ToContact")
+@WebServlet("/toContact")
 public class ToContact extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -26,7 +26,7 @@ public class ToContact extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("/WEB-INF/views/contact.html").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/views/contact1.html").forward(request, response);
 	}
 
 	/**
